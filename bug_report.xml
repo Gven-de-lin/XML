@@ -1,1 +1,14 @@
+<bus_report>
+      <Summary>The “Username” field isn’t highlighted in red on the registration form after entering blank spaces and special characters into the “Username” field</Summary>
+     <Description>The “Username” field isn’t highlighted in red on the registration form after entering blank spaces and special characters into the “Username” field</Description>
+     <Steps_to_reproduce>
+          <1>Go to the site: http://clgcms.qa-testlab.net/</1>
+          <2>Click the “Sign-up” link.</2>
+          <3>Enter valid data into the required fields.</3>
+          <4>Enter blank spaces and special characters into the “Username” field.</4>
+          <5>Pay attention to the “Username” field.</5>
+    </Steps_to_reproduce>
+    <Actual result>Blank spaces and special characters are accepted in the “Username” field on the registration form</Actual result>
+    <Expected result>The “Username” field is highlighted in red and the error message is displayed on the registration form after entering blank spaces and special characters into the “Username” field.</Expected result>
+</bug_report>
 
